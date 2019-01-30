@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+  Name: Angelina
+  Date Created: 1/27/19
+  Most Recent Revision:
+-->
+<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles/bitterfoxrestaurantStyles.css" rel="stylesheet" type="text/css" />
+    <noscript class="noscript">
+       Please enable JavaScript for best website performance.
+    </noscript>
+    <script>
+    function checkforblank() {
+      if(document.getElementById('name').value == ""){
+        alert('Please enter valid information');
+        return false;
+      } else
+      alert('The information entered was valid. Thank you!')
+      return false;
+    }
+    </script>
+    <style>
+      body {
+        background-color: #b3b6b7;
+        color: #0d1f2d;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      label {
+        font-weight:bold;
+      }
+    </style>
+
+  </head>
+
+    <body>
+      <header>
+        <h1>Contact The Bitter Fox</h1>
+      </header>
+      <nav>
+        <a class="btn badge-pill" href="theBitterFoxHome.html"><i class="fa fa-home"></i>Home</a>
+        <a class="btn badge-pill" href="theBitterFoxMenu.html">Menu</a>
+        <a class="btn badge-pill" href="theBitterFoxContact.html">Contact Us</a>
+      </nav>
+
+      <form method="post" action="#" onsubmit="return checkforblank()">
+
+        <div class="form-group row">
+          <label for="name" class=" col-sm-2 col-form-label">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Jane Doe" required>
+        </div>
+
+        <div class="form-group row">
+          <label for="email" class="col-sm-2 col-form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        </div>
+
+        <div class="form-group row">
+          <label for="phone" class="col-sm-2 col-form-label">Phone:</label>
+          <input type="phone" class="form-control" id="phone" placeholder="(555)555-5555" required>
+        </div>
+
+        <div class="form-group row">
+          <label for="reasonForInquiry" class="col-form-label">Reason for Inquiry:</label>
+          <select class="form-control" id="reasonForInquiry">
+            <option>Catering</option>
+            <option>Private Party</option>
+            <option>Feedback</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <fieldset class="form-group">
+          <div class="row">
+            <label for="additionalInformation" class="col-form-label">Additional Information:</label>
+            <textarea class="form-control" id="additionalInformation" rows="3"></textarea>
+          </div>
+        </fieldset>
+
+
+
+
+          <div class="form-check form-check-inline">
+<legend class="col-form-label">Have you been to The Bitter Fox before?</legend>
+            <input class="form-check-input" type="radio" name="option" id="yes" value="option1">
+            <label class="form-check-label" for="yes">Yes</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="option" id="no" value="option2">
+            <label class="form-check-label" for="no">No</label>
+          </div>
+
+
+      <div class="form-check form-check-inline">
+        <legend class="col-form-label">When is best to contact you?</legend>
+          <input class="form-check-input" type="checkbox" id="M" value="option1">
+          <label class="form-check-label" for="M">M</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="T" value="option2">
+            <label class="form-check-label" for="T">T</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="W" value="option3">
+        <label class="form-check-label" for="W">W</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="Th" value="option4">
+        <label class="form-check-label" for="Th">Th</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="F" value="option5">
+        <label class="form-check-label" for="F">F</label>
+      </div>
+
+      <div class="form-group row">
+            <button type="submit" class="btn btn-primary">Send Request</button>
+      </div>
+
+      </form>
+
+        <footer>
+            <p>4102 Basil St, Big Apple, NY 55555</p>
+            <p>1(800)555-4102</p>
+        </footer>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

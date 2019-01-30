@@ -1,0 +1,38 @@
+/*
+Creator: Angelina
+Date created: 1/26/19
+Date last modified:
+*/
+header {
+  font-family: 'Special Elite', cursive;
+}
+header, footer {
+  background-color: #6f1a07;
+  color: #fef9ff;
+  height: 100px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+nav {
+  background-color: #f7f3e3;
+  border-top: thick #2b2118 dashed;
+  border-bottom: thick #2b2118 dashed;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+nav .btn {
+  background-color: #2b2118;
+  color: #fef9ff;
+}
+nav .btn:visited {
+  color: #af9164;
+}
+nav .btn:hover {
+  background-color: #e7f3e3;
+  color: #2b2118;
+  font-weight: bold;
+}
+nav .btn:active {
+  text-decoration: none;
+}
